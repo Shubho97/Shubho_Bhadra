@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock title %}
+{% block body %}
+
+<div class="alert alert-warning" role="alert">
+<h4 class="alert-heading">WARNING!!!</h4>
+    <p>Thank you for visiting the page.</p>
+    <hr>
+    <p class="mb-0">Currently work for this website is in progress and this website is build using Django Framework...</p>
+</div>
+
+
+<div class="container-fluid px-0">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" px-100>
+      <div class="carousel-item active">
+        <img src="/static/Body_first_page.avif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Shubho Bhadra</h5>
+          <p>This is the first page..!!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/Body_second_image.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> </h5>
+          <p>This is the second page..!!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.solidbackgrounds.com/images/1920x1080/1920x1080-saffron-solid-color-background.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> </h5>
+          <p>This is the third page..!!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+<div class="container my-3">
+<h2 div class="my-2">Projects!!</h2>
+<div class="row">
+  <div class="col-lg-4">
+    <img src="/static/NOM_pic.webp" svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+
+    <h4>Network Operation Master</h4>
+    <p>The Nokia Network Operations Master uses software-driven implementation, and customizable operations to deliver automation, while concurrently ensuring the overall integrity of network operations.</p>
+    <p><a class="btn btn-secondary" href="/NOM_details">View details »</a></p>
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+    <img src="/static/Small_cells_pic.avif" svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+
+    <h4>Femto Small Cells</h4>
+    <p>A femtocell allows service providers to extend service coverage indoors or at the cell edge, especially where access would otherwise be limited or unavailable.</p>
+    <p><a class="btn btn-secondary" href="/Femto_small_cells">View details »</a></p>
+</div>
+{% endblock body %}
